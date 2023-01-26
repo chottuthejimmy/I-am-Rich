@@ -27,5 +27,5 @@ jobs:
           with:
             args: deploy --only hosting:i-am-rich-6db40
           env:
-            FIREBASE_TOKEN: ${{secrets.FIREBASE_SERVICE_ACCOUNT_I_AM_RICH_6DB40}}
+            FIREBASE_TOKEN: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_I_AM_RICH_6DB40 }}
             PROJECT_PATH: ./
